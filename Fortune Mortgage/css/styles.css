@@ -1,0 +1,400 @@
+body {
+  margin: 0;
+  font-family: 'Cormorant', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Prata', serif;
+  /* background-color: #787d7b; */
+}
+
+.container-fluid {
+  padding: 0 2%;
+}
+
+nav {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.navbar-nav {
+  padding: auto;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+.nav-link {
+  color: #39504E;
+}
+
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navbar-toggler-icon {
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=BFE100');
+}
+
+.first-container-fluid {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+
+.slideshow_image {
+  height: 500px;
+}
+
+/*  {box-sizing:border-box} */
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+/* =============================================== */
+.second-container-fluid {
+  padding: 50px 5%;
+  text-align: center;
+}
+
+.intro-1 {
+  width: 80%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+  font-size: 20px;
+  font-family: 'Montserrat', serif;
+  font-weight: 300;
+}
+
+.third-container-fluid {
+  background-color: #39504E;
+  padding: 3% 5%;
+  color: white;
+  text-align: center;
+}
+
+.whyUs_detail {
+  font-family: 'Montserrat', serif;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.intro-2 {
+  width: 80%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.intro-image-2 {
+  width: 30%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.forth-container-fluid {
+  display: block;
+  margin: 50px 100px 50px;
+  text-align: center;
+}
+
+.contactForm {
+  margin: 50px auto;
+}
+
+.servicediv {
+  width: 80%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.csi-contactform {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.csi-btn {}
+
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.bottom-bottom {
+  text-align: center;
+}
+
+/* ---------------aboutUS---------------- */
+.about_us_first_container-fluid {
+  width: 100%;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.aboutUsImage {
+  width: 100%;
+  height: 500px;
+}
+
+.aboutUS_detail {
+  width: 70%;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: left;
+  margin: 50px auto;
+  font-family: "Montserrat", serif;
+}
+
+.aboutUsSubheading {
+  color: #39cad3;
+}
+
+.team-intro {
+  width: 70%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.team-image {
+  width: 20%;
+  border-radius: 10%;
+  margin-right: 30px;
+  float: left;
+}
+
+/* ---------------Service---------------- */
+.service_first_container-fluid {
+  width: 100%;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.serviceImage {
+  width: 100%;
+  height: 500px;
+}
+
+.service_detail {
+  width: 70%;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: left;
+  margin: 50px auto;
+  font-family: "Montserrat", serif;
+}
+
+.service_title {
+  margin: 0 0 50px 0;
+}
+
+.s_icon {
+  margin-bottom: 20px;
+}
+
+.services-grids {
+  margin: auto;
+}
+
+.services-grids:hover {
+  color: #ccd42b;
+}
+
+.service_second_container_fluid {
+  width: 100%;
+  text-align: center;
+  margin: 50px auto;
+  background-color: #39504E;
+  padding: 3% 5%;
+  color: white;
+}
+
+.service_button {
+  background-image: none;
+  margin-top: 80px;
+  background-color: white;
+  padding: 8px 9px;
+  border-radius: 5px;
+  border: 0;
+  color: #00bcd4;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid rgb(242, 164, 56);
+}
+
+/* ------------------------Calculator----------------- */
+/* .calculatorImage {
+  width: 100%;
+  height: 500px;
+} */
+
+
+
+.calculator_first_container_fluid {
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.calculator_second_container_fluid {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  padding: 50px auto;
+  background-color: #39504E;
+  color: white;
+}
+
+.c_icon {
+  margin: 40px;
+}
+
+.calculators {
+  margin: auto;
+}
+
+.cal_detail {
+  margin-top: 30px;
+}
+
+.calculator_button {
+  margin: 50px 50px;
+  /* background-color: #ccd42b; */
+  padding: 8px 9px;
+  /* border-radius: 5px; */
+  border: 0;
+  font-size: 15px;
+  font-weight: bold;
+  /* border: 2px solid #00bcd4; */
+  color: #ccd42b;
+}
+
+/* ------------flipbox syle--------------- */
+.flip-box {
+  background-color: transparent;
+  top: 50px;
+  width: 400px;
+  height: 300px;
+  perspective: 1000px;
+  margin: auto;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: black;
+  color: white;
+}
+
+.flip-box-back {
+  background-color: white;
+  color: black;
+  transform: rotateX(180deg);
+}
+
+/* -------------calculatorPage------------ */
+.calculators_first_container_fluid {
+  text-align: center;
+}
+
+.backBtnDiv {
+  text-align: left;
+  margin-left: 5%;
+}
+
+/* -----------Promotion------------- */
+.Promotion-first-container-fluid {}
+
+.promotionImage {
+  margin: 0 32%;
+  width: 36%;
+}
+
+.Promotion-second-container-fluid {
+  background-color: #39504E;
+  padding: 0 5%;
+  color: white;
+  text-align: center;
+}
+
+.Promotion-third-container-fluid {
+  padding: 50px 5%;
+  text-align: center;
+}
+
+.promotions {
+  margin-top: 30px;
+}
+
+.promotion_detail {
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+  line-height: 2;
+  font-size: 20px;
+  font-family: 'Montserrat', serif;
+  font-weight: 300;
+}
