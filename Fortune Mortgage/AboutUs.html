@@ -6,14 +6,18 @@
   <title>Fortune Mortgage Service</title>
   <link rel="icon" href="images/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- CSS style sheet -->
   <link rel="stylesheet" href="css/styles.css">
   <!-- font awesome -->
   <script src="https://kit.fontawesome.com/1d16517fef.js" crossorigin="anonymous"></script>
   <!-- google font -->
   <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Montserrat&family=Prata&display=swap" rel="stylesheet">
-
+  <!-- google recaptcha -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -67,78 +71,57 @@
 
   <section>
     <div class="third-container-fluid">
-      <h1>Team</h1>
-      <div class="team-intro">
-        <img class="team-image" src="images/profilesample.png" alt="">
-        <h4>Kuangyean Jung (Professional Mortgage Consultant)</h4>
-        <p>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        </p>
-      </div>
-      <div class="team-intro">
-        <img class="team-image" src="images/profilesample.png" alt="">
-        <h4>Kuangyean Jung</h4>
-        <p>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        </p>
-      </div>
-      <div class="team-intro">
-        <img class="team-image" src="images/profilesample.png" alt="">
-        <h4>Kuangyean Jung</h4>
-        <p>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        </p>
-      </div>
+      <div class="forth-container-fluid ">
+        <h1>Contact</h1>
+        <div class="contactForm row">
+          <div class="col-md-2"></div>
+          <div class="col-md-offset-2 col-md-8">
+            <form class="contact__form" method="post" action="mail.php">
 
-    </div>
-  </section>
-  <section>
-    <div class="forth-container-fluid">
-      <h1>Contact</h1>
-      <div class="contactForm row">
-        <div class="col-md-2">
-
-        </div>
-        <div class="col-md-offset-2 col-md-8">
-          <form method="POST" class="csi-contactform" id="contact_frm">
-            <div class="form-group">
-              <input name="csiname" class="form-control csiname" id="csiname" placeholder="Your Name ..." required="" aria-required="true" type="text">
-            </div>
-            <div class="form-group">
-              <input name="csiemail" class="form-control csiemail" id="csiemail" placeholder="Email address ..." required="" aria-required="true" type="email">
-            </div>
-            <div class="form-group">
-              <input name="csisubject" class="form-control csisubject" id="csisubject" placeholder="Email Subject ..." required="" aria-required="true" type="text">
-            </div>
-            <div class="form-group">
-              <textarea class="form-control csimessage" name="csimessage" id="csimessage" rows="5" placeholder="Massage ..." required="" aria-required="true"></textarea>
-            </div>
-            <div class="form-group">
-              <div class="g-recaptcha" data-sitekey="6LfPIHoUAAAAALsHt3UuyQQ832NvONcOhIzEVGz0">
-                <div style="width: 304px; height: 78px;">
-                  <div><iframe
-                      src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfPIHoUAAAAALsHt3UuyQQ832NvONcOhIzEVGz0&amp;co=aHR0cDovL21vbmV5bWlyYWNsZXMuY29tLmF1Ojgw&amp;hl=ko&amp;v=r8WWNwsCvXtk22_oRSVCCZx9&amp;size=normal&amp;cb=6mgkeegwhmr4"
-                      width="304" height="78" role="presentation" name="a-hopz24tlg8jw" frameborder="0" scrolling="no"
-                      sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response-1" name="g-recaptcha-response"
-                    class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
-                </div><iframe style="display: none;"></iframe>
+              <!-- form message -->
+              <div class="row">
+                <div class="col-12">
+                  <div class="contact__msg" style="display: none">
+                    <p>Your message was sent successfully.</p>
+                  </div>
+                </div>
               </div>
-            </div>
-            <button type="submit" name="submit" value="contact-form" class="btn btn-lg btn-outline-primary csi-btn csi-btn-lg hvr-glow hvr-radial-out csisend csi-send"> Contact </button>
-          </form>
-        </div>
-        <div class="col-md-2">
+              <!-- end message -->
 
+              <!-- form element -->
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input name="name" type="text" class="form-control" placeholder="Name" required>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input name="email" type="email" class="form-control" placeholder="Email" required>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input name="phone" type="text" class="form-control" placeholder="Phone" required>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input name="subject" type="text" class="form-control" placeholder="Subject" required>
+                </div>
+                <div class="col-12 form-group">
+                  <textarea name="message" class="form-control" rows="3" placeholder="Message" required></textarea>
+                </div>
+                <div class="col-12 form-group">
+                  <div class="g-recaptcha" data-sitekey="6Lf5U8wZAAAAACMbd5-hhbifkV-gCAKXG3LWj3hB"></div>
+                </div>
+                <div class="col-12">
+                  <input name="submit" type="submit" class="btn btn-success" value="Send Message">
+                </div>
+              </div>
+              <!-- end form element -->
+            </form>
+          </div>
+          <div class="col-md-2"></div>
+          <!--//.COL-->
         </div>
-        <!--//.COL-->
+
       </div>
-
-
-
     </div>
+
   </section>
 
   <div class="bottom-bottom">
